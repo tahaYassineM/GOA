@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/ic_launcher_foreground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/nom_conf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:text="Nom: "
+            />
+
+        <TextView
+            android:id="@+id/prenom_conf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:text="Prenom: "
+            />
+
+        <TextView
+            android:id="@+id/email_conf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:text="Email: "
+            />
+
+        <Button
+            android:id="@+id/btn_conf"
+            android:layout_width="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_height="wrap_content"
+            android:background="#ff5500"
+            android:text="Confirmation"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

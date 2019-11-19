@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gestion Etudiants</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="nom">nom</string>
+    <string name="prenom">prenom</string>
+    <string name="password">Password</string>
+    <string name="connecter">Connecter</string>
+    <string name="login">Login</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="moslioh">MOSLIOH</string>
+    <string name="taha">taha</string>
+</resources>
